@@ -37,8 +37,7 @@ The simulation uses POSIX threads and semaphores to coordinate concurrent operat
 Compile on Linux using GCC:
 
 ```bash
-gcc -Wall -Wextra -pthread vehicle_inspection.c -o vehicle_inspection
-```
+gcc -pthread vehicle-inspection.c -o vehicle_inspection```
 
 Run:
 
